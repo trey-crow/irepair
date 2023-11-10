@@ -42,7 +42,7 @@ service:
       so if you don’t want to wait for repairs, we will give you money right away.
       It doesn’t get much easier than that!
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: "#"
   - title: The Best Choice to get you Back to Normal
@@ -53,7 +53,7 @@ service:
       repaired or replaced. Our team has seen and fixed it all, so stop by today for
       fast service at an affordable price.
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: "#"
   - title: For a Phone like New
@@ -66,7 +66,7 @@ service:
       from everyone else out there - we care about getting things done quickly while
       still maintaining high quality workmanship every step of the way!
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: "#"
 screenshot:
