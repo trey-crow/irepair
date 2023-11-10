@@ -1,0 +1,29 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+
+[[main]]
+name = "Pricing"
+url = "pricing"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 4
+
+
+# footer menu left
+
+
+# footer menu right
+[[footer_right]]
+name = "Contact"
+url = "contact"
+
+[[footer_right]]
+name = "Pricing"
+url = "pricing"

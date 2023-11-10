@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+<section class="section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST"
+          name="contact"
+          action="https://submit-form.com/4cgLLJK7"
+          netlify-honeypot="subject"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+          netlify>
+          <input
+           type="hidden"
+           name="_redirect"
+           value="https://i-repair-gunnison.netlify.app/success"
+         />
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="{{ i18n `yourname` }}">
+          <input type="email" class="form-control mb-3" id="email" name="email" placeholder="{{ i18n `youremail` }}">
+          <input style ="display:none;" type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="{{ i18n `yourmessage` }}"></textarea>
+          <div data-netlify-recaptcha="true"></div>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n `sendnow` }}</button>
+          <input type="hidden" name="_email.subject" value="You have a new message!" />
+          <input type="hidden" name="_email.from" value="iRepair Gunnison" />
+        </form>
+      </div>
+
+      <div class="col-lg-5 content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

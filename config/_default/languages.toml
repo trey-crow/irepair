@@ -1,0 +1,29 @@
+############################# English ############################
+[en]
+languageName = "En"
+title = "iRepair Gunnison"
+contentDir = "content/english" # content/english
+weight = 1
+########### footer content ##########
+footer_menu_left = ""
+footer_menu_middle = ""
+footer_menu_right = "Important Links"
+footer_content = "iRepair Gunnison is a family-owned and operated phone repair business. We buy, sell, and repair all sorts of phones!"
+# copyright
+copyright = "iRepair Gunnison © 2022 | All Rights Reserved"
+
+
+
+############################# Deutsch ############################
+[esp]
+languageName = "Esp"
+title = "iRepair Gunnison"
+contentDir = "content/spanish" # content/german
+weight = 2
+########### footer content ##########
+footer_menu_left = ""
+footer_menu_middle = ""
+footer_menu_right = "Apoyo"
+footer_content = "iRepair Gunnison es una empresa de reparación de teléfonos de propiedad y operación familiar. Compramos, vendemos y reparamos todo tipo de teléfonos!"
+# copyright
+copyright = "iRepair Gunnison © 2022 | Reservados Todos los Derechos"

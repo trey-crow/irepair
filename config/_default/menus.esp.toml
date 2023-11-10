@@ -1,0 +1,30 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+
+[[main]]
+name = "Precios"
+url = "esp/pricing"
+weight = 3
+
+[[main]]
+name = "Contacto"
+url = "esp/contact"
+weight = 4
+
+
+# footer menu left
+
+
+
+# footer menu right
+[[footer_right]]
+name = "Precios"
+url = "esp/pricing"
+
+[[footer_right]]
+name = "Contacto"
+url = "esp/contact"

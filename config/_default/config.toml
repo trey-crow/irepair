@@ -1,0 +1,60 @@
+######################## default configuration ####################
+baseURL = ""
+title = "iRepair Gunnison"
+##### theme = "bigspring-light"  #########
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+######################### site variables ##############################
+# customize your color and font from here.
+[params.variables]
+primary_color = "#023059"
+text_color = "#777"
+text_color_dark = "#222"
+body_color = "#fff"
+border_color = "#ECECEC"
+black = "#000"
+white = "#fff"
+light = "#98cdd9"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "Lato:wght@400"
+primary_font_type = "sans-serif" # [serif/sans-serif]
+icon_font = "Font Awesome 5 Free"
+
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
+
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.slim.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+# [[params.plugins.js]]
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+# attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
