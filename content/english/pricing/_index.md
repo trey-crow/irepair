@@ -44,7 +44,7 @@ business:
 call_to_action:
   enable: true
   title: Need something more?
-  image: images/cta.svg
+  image: images/storefront.png
   content: We offer a range of services beyond the most popular ones above. If you
     don't see what you're looking for, drop us a line for a free consultation.
   button:
