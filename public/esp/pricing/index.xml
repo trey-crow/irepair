@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Preise on iRepair Gunnison</title>
-    <link>/esp/pricing/</link>
-    <description>Recent content in Preise on iRepair Gunnison</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>iRepair Gunnison © 2022 | Reservados Todos los Derechos</copyright><atom:link href="/esp/pricing/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Precios on iRepair Gunnison</title><link>/esp/pricing/</link><description>Recent content in Precios on iRepair Gunnison</description><generator>Hugo -- gohugo.io</generator><language>esp</language><copyright>iRepair Gunnison © 2022 | Reservados Todos los Derechos</copyright><atom:link href="/esp/pricing/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
