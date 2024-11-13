@@ -1,0 +1,20 @@
+{
+  "name": "i-repair-gunnison",
+  "version": "1.0.0",
+  "description": "iRepair Website with Love",
+  "main": "public",
+  "scripts": {
+    "test": "hugo build",
+    "build": "hugo serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trey-crow/irepair.git"
+  },
+  "author": "Trey Crow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trey-crow/irepair/issues"
+  },
+  "homepage": "https://github.com/trey-crow/irepair#readme"
+}
