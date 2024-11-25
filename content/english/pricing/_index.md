@@ -5,7 +5,7 @@ subtitle: We use top end aftermarket parts and also offer refurbished parts for 
 description: This is meta description
 basic:
   name: Screens
-  price: "$99+"
+  price: "98+"
   price_per: phone
   info: For iPhones and Androids
   services:
